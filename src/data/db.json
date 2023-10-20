@@ -1,0 +1,112 @@
+{
+  "modbus": [
+    {
+      "name": "EW31-33",
+      "type": "ES-ALS-02",
+      "port": "/dev/ttysWK2",
+      "baudrate": "19200",
+      "slave": "12888",
+      "poll": "130000",
+      "id": 1
+    },
+    {
+      "name": "ES-SM-333",
+      "type": "ES-SM-THEC-01",
+      "port": "/dev/ttysWK2",
+      "baudrate": "19200",
+      "slave": "1111",
+      "poll": "11111",
+      "id": 2
+    },
+    {
+      "name": "EW43-15",
+      "type": "ES-WS-02",
+      "port": "/dev/ttysWK2",
+      "baudrate": "19200",
+      "slave": "2222",
+      "poll": "5555",
+      "id": 3
+    },
+    {
+      "name": "EWW-444",
+      "type": "ES-PH-WT-01",
+      "port": "/dev/ttysWK1",
+      "baudrate": "38400",
+      "slave": "11111",
+      "poll": "3333",
+      "id": 4
+    },
+    {
+      "name": "ES-SM-12",
+      "type": "ES-SM-THEC-01",
+      "port": "/dev/ttysWK2",
+      "baudrate": "19200",
+      "slave": "22223",
+      "poll": "333333",
+      "id": 5
+    },
+    {
+      "name": "EW43-15",
+      "type": "ES-WS-02",
+      "port": "/dev/ttysWK2",
+      "baudrate": "19200",
+      "slave": "2222",
+      "poll": "5555",
+      "id": 6
+    },
+    {
+      "name": "EWW-444",
+      "type": "ES-PH-WT-01",
+      "port": "/dev/ttysWK1",
+      "baudrate": "38400",
+      "slave": "11111",
+      "poll": "3333",
+      "id": 7
+    },
+    {
+      "name": "ES-SM-333",
+      "type": "ES-SM-THEC-01",
+      "port": "/dev/ttysWK2",
+      "baudrate": "19200",
+      "slave": "1111",
+      "poll": "11111",
+      "id": 8
+    },
+    {
+      "name": "EW43-15",
+      "type": "ES-RAINF-01",
+      "port": "/dev/ttysWK0",
+      "baudrate": "38400",
+      "slave": "1222",
+      "poll": "3333",
+      "id": 9
+    },
+    {
+      "name": "EW43-15",
+      "type": "ES-WS-02",
+      "port": "/dev/ttysWK2",
+      "baudrate": "19200",
+      "slave": "2222",
+      "poll": "5555",
+      "id": 10
+    },
+    {
+      "name": "EW43-12",
+      "type": "ES-WDC-01",
+      "port": "/dev/ttysWK2",
+      "baudrate": "4800",
+      "slave": "333112",
+      "poll": "123132",
+      "id": 11
+    },
+    {
+      "name": "EW31-S01",
+      "type": "ES-SM-THEC-01",
+      "port": "18333",
+      "baudrate": "19200",
+      "slave": "19999",
+      "poll": "15555",
+      "id": 12
+    }
+  ]
+}

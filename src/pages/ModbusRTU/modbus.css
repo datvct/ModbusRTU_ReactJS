@@ -1,0 +1,36 @@
+.main {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.add_device {
+  display: flex;
+  gap: 20px;
+}
+
+.list-RTU table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.list-title tr th {
+  height: 40px;
+  border: 1px solid;
+  background: rgb(205, 205, 205);
+  text-align: center;
+}
+.list-RTU tbody tr td {
+  text-align: center;
+}
+.list-RTU tbody tr td button {
+  margin-right: 10px;
+}
+
+.form-group .row {
+  margin-bottom: 10px;
+}
+.menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}

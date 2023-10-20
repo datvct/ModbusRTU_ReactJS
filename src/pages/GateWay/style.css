@@ -1,0 +1,65 @@
+.gateWay {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  align-items: center;
+  height: 100%;
+}
+.gateWay h2 {
+  font-size: 45px;
+  color: rgb(10, 184, 232);
+}
+
+.gateWay .item-car {
+  width: 400px;
+  position: relative;
+  padding: 25px 0;
+}
+.gateWay .item-car input {
+  width: 100%;
+  font-size: inherit;
+  outline: 0;
+  border: none;
+  border-bottom: 1px solid #0b5ed7;
+  margin: 0 15px;
+  padding: 3% 0;
+}
+.item-car label {
+  position: absolute;
+  padding: 5%;
+  left: 0px;
+  top: 40%;
+  transform: translateY(-40%);
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+}
+.item-car input:focus + label,
+.item-car input:valid + label {
+  top: 10px;
+  font-size: 12px;
+  color: #51acfb;
+}
+
+.button-gateway {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.button-gateway button {
+  border: none;
+  background-color: #0b5ed7;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.button-gateway button:hover {
+  background-color: rgb(99, 155, 240);
+}
